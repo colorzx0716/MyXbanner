@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bawie.myxbanner.MainActivity"
+    android:orientation="horizontal">
+
+    <com.stx.xhb.xbanner.XBanner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="200.0dip"
+        app:AutoPlayTime="3000"
+        app:pointNormal="@drawable/dot_no"
+        app:pointSelect="@drawable/dot_yes"
+        app:pointsContainerBackground="#44AAAAAA"
+        app:pointsPosition="RIGHT"
+        app:tipTextColor="#FFFFFFFF"
+        app:tipTextSize="16.0sp" />
+
+
+</LinearLayout>
